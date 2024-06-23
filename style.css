@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Convergence&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+   background-color: rgb(215, 221, 221);
+   width: 430px;
+   font-family: "Convergence", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   height:130vh;
+  
+
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+   text-decoration:none;
+   color: black;
+
+}
+.main{
+    background-color: rgb(178, 194, 185);
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: rgb(140, 106, 163);
+    height: 70vh;
+    width:70vw;
+   margin: 150px auto;
+   display:flex ;
+   justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    align-content:space-between;
+    flex-direction: column;
+    align-content: normal;
+    justify-content: center;
+}
+.hello{
+    align-items: center;
+    font-size: 90px;
+    font-family: "Convergence", sans-serif;
+   font-weight: 200;
+   font-style: normal;
+
+}
+.name{
+
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Convergence", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.about{
+    font-size: 60px;
+    font-family: "Convergence", sans-serif;
+   font-weight: 200;
+   font-style: normal;
+
+}
+.moreabout{
+    font-size: 40px;
+    font-family: "Convergence", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+   margin-top:20px;
+
+
+}
+.buttons button{
+    padding:9px 14px;
+   justify-content: space-around;
+    background-color: rgb(145, 19, 99);
+    border-radius:  22px;
+    height: 4vh;
+    width: 12vh;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: bold;
+    border-width:5px;
+    margin:0 3px ;
+    color: rgb(237, 233, 233);
+    font-family: "Convergence", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.buttons button:hover{
+    background-color: rgb(194, 162, 115);
+    color:aliceblue;
+}
+.devpic img{ 
+    height: 70vh;
+}
+@media (max-width:1615px){*{
+    
+}
+ /*Transfer translate  we are using */
+.sidebar{
+    transform: translate(-443,0px);
+    position: absolute;
+}
+
+}
+
